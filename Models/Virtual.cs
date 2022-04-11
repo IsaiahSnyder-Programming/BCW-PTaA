@@ -8,5 +8,7 @@ namespace PlanesTrainsandAutomobiles.Models
         public T Id { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public string creatorId { get; set; }
+        public Account? Creator { get; set; }
     }
 }
