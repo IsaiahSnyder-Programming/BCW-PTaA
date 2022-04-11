@@ -41,3 +41,19 @@ FROM
   JOIN accounts a
 WHERE
   a.id = t.creatorId;
+--
+  --
+UPDATE
+  trips
+SET
+  name = "Mehiko"
+WHERE
+  id = 1;
+--
+  --
+DELETE FROM
+  trips
+WHERE
+  id = 1
+LIMIT
+  1;
